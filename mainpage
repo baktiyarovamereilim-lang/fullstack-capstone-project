@@ -1,0 +1,18 @@
+curl -X GET http://localhost:3000/api/gifts
+
+[
+  {
+    "_id": "6501a2b3c4d5e6f7a8b9c0d1",
+    "name": "Wireless Bluetooth Headphones",
+    "category": "Electronics",
+    "condition": "New",
+    "price": 49.99
+  },
+  {
+    "_id": "6501a2b3c4d5e6f7a8b9c0d2",
+    "name": "Stainless Steel Water Bottle",
+    "category": "Home & Kitchen",
+    "condition": "New",
+    "price": 15.00
+  }
+]
