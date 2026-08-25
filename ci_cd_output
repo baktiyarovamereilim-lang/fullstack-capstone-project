@@ -1,0 +1,37 @@
+Run actions/checkout@v3
+  with:
+    repository: baktiyarovamereilim-lang/fullstack-capstone-project
+    ref: main
+  Syncing repository: baktiyarovamereilim-lang/fullstack-capstone-project
+  Getting Git version info
+
+Run actions/setup-node@v3
+  with:
+    node-version: 18.x
+  Found in cache @ /opt/hostedtoolcache/node/18.17.1/x64
+
+Run npm ci
+  added 320 packages in 4s
+
+Run npm run lint
+  No lint errors found.
+
+Run npm test
+  > fullstack-capstone@1.0.0 test
+  > jest --passWithNoTests
+
+  PASS  ./app.test.js
+  Test Suites: 1 passed, 1 total
+  Tests:       4 passed, 4 total
+  Snapshots:   0 total
+  Time:        1.24s
+
+Run Build & Deploy Step
+  Building application assets...
+  Deploying application to production environment...
+  Deployment successful!
+
+Post actions/setup-node@v3
+Post actions/checkout@v3
+Complete job execution
+Status: Process completed with exit code 0 (Success)
